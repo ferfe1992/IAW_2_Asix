@@ -1,4 +1,12 @@
 baseURL : "http://example.org/"
-languageCode : "en-us"
-title : "My New Hugo Site"
+languageCode : "ca-es"
+title : "Pepe Gotera y Otilio Arquitectos"
 theme: "ananke"
+menu:
+  main:
+  - name: Sobre l'empresa
+    url: /about
+    weight: -110
+  - name: Projectes
+    url: /projectes/
+    weight: -100

@@ -6,4 +6,4 @@ draft: true
 
 Les critiques sobre aques parc infantil ens va posar en "lo mes alt".
 
-![Parc Infantil] (/projectes/projecte1.jpg)
+![Parc Infantil](/projectes/projecte1.jpg)
