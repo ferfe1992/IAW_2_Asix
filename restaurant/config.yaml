@@ -4,9 +4,12 @@ title : "RESTAURANT eFe"
 theme: "basic-hugo"
 menu:
   main:
-  - name: Carta
+  - name: Introduccio
     url: /about
-    weight: -110
-  - name: Projectes
-    url: /projectes/
     weight: -100
+  - name: Carta
+    url: /projectes/projecte1/
+    weight: -110
+  - name: Menu
+    url: /projectes/projecte2/
+    weight: -110

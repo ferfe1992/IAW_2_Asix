@@ -56,4 +56,4 @@ draft: true
 -------------------------------
 
 
-![Carta](/projectes/projecte1.jpg)
+![Carta](/projectes/paella1.jpg)
