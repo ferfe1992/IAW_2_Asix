@@ -1,12 +1,12 @@
 ---
-title: "Sobre l'empresa"
+title: "Restaurant eFe"
 date: 2020-10-20T08:42:33+02:00
 draft: true
 #menu: "main"
   
 ---
 
-La nostra es una xicoteta empresa dedicada al mon de la 
-construcció, puntera i amb projectes per tot arreu del món
+El nostre restaurant busca sempre tenir la millor qualitat, dedicació i tradició dels 
+menjars tipics valencians. 
 
 

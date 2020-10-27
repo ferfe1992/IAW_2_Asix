@@ -1,10 +1,10 @@
 baseURL : "http://example.org/"
 languageCode : "ca-es"
-title : "Pepe Gotera y Otilio Arquitectos"
-theme: "ananke"
+title : "RESTAURANT eFe"
+theme: "basic-hugo"
 menu:
   main:
-  - name: Sobre l'empresa
+  - name: Carta
     url: /about
     weight: -110
   - name: Projectes
