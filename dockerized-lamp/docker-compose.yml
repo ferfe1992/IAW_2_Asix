@@ -1,0 +1,28 @@
+version: '3'
+services:
+    php-apache:
+        build:
+            context: ./php-apache    
+        ports:
+            - 8080:80
+        volumes:
+            - ./DocumentRoot:/var/www/html:z
+        links:
+            - 'mariadb'
+
+    mariadb:
+        image: mariadb
+        ports:
+            - 3308:3306
+        volumes:
+            - mariadb:/var/lib/mysql
+        environment:
+            TZ: "Europe/Rome"
+            MYSQL_ALLOW_EMPTY_PASSWORD: "no"
+            MYSQL_ROOT_PASSWORD: "rootpwd"
+            MYSQL_USER: 'root'
+            MYSQL_PASSWORD: 'rootpwd'
+            MYSQL_DATABASE: 'wordpress'
+
+volumes:
+    mariadb:
